@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "group5_finalproject_healthconnect", "DoctorAppointment\group5_finalproject_healthconnect.csproj", "{69C01DEB-7AC2-4CBF-BF9F-0B051CFC39D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69C01DEB-7AC2-4CBF-BF9F-0B051CFC39D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69C01DEB-7AC2-4CBF-BF9F-0B051CFC39D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69C01DEB-7AC2-4CBF-BF9F-0B051CFC39D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69C01DEB-7AC2-4CBF-BF9F-0B051CFC39D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0C4C2E91-FDF1-4C11-883D-C9CC07755EDA}
+	EndGlobalSection
+EndGlobal

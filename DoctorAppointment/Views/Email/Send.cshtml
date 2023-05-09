@@ -1,0 +1,47 @@
+﻿@model DoctorAppointment.Models.MailContent
+
+@{
+    ViewData["Title"] = "Send";
+
+    @if (ViewBag.Role == "Admin")
+    {
+        Layout = "~/Views/Shared/_Layoutdd.cshtml";
+
+    }
+    else
+    {
+        Layout = "~/Views/Shared/Medicr_DoctorLayout.cshtml";
+    }
+   
+}
+
+<h1>Send</h1>
+
+<h4>MailContent</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Send">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ToEmailAddress" class="control-label"></label>
+                <input asp-for="ToEmailAddress" class="form-control" />
+                <span asp-validation-for="ToEmailAddress" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailSubject" class="control-label"></label>
+                <input asp-for="EmailSubject" class="form-control" />
+                <span asp-validation-for="EmailSubject" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="EmailBody" class="control-label"></label>
+                <textarea asp-for="EmailBody" class="form-control" ></textarea>
+                <span asp-validation-for="EmailBody" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
